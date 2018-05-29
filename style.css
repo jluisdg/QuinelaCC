@@ -1,0 +1,36 @@
+html {
+  font-size: 18px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Acme', sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 1;
+  letter-spacing: 1px;
+}
+body {
+  width: 500px;
+  margin: 5 auto;
+  background-color: #B7392D;
+  padding: 0 20px 20px 20px;
+  border: 3px solid white;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
